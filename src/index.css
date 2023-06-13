@@ -1,0 +1,38 @@
+/* Reset box-sizing to border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margin and padding from all elements */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+ol,
+li,
+form,
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font-size to 16px and font-family to sans-serif */
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}

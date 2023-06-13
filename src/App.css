@@ -1,0 +1,165 @@
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.quiz-title {
+  text-align: center;
+}
+
+.quiz-time-elapsed {
+  margin-bottom: 20px;
+}
+
+.quiz-question-number {
+  margin-bottom: 10px;
+}
+
+.quiz-question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quiz-options {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-options li label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.quiz-next-button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #0074d9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quiz-next-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.quiz-results {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.quiz-results h2 {
+  text-align: center;
+}
+
+.quiz-time,
+.quiz-score,
+.quiz-pass-status {
+  margin-bottom: 20px;
+}
+
+.quiz-review-button,
+.quiz-retry-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  background-color: #0074d9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quiz-review-button {
+  margin-bottom: 10px;
+}
+
+.quiz-review-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quiz-review-question {
+  margin-bottom: 20px;
+}
+
+.quiz-review-question-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quiz-review-options {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-review-options li label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: default;
+}
+
+.quiz-review-option-correct {
+  background-color: #dff2bf;
+  padding: 5px;
+}
+
+.quiz-review-option-incorrect {
+  background-color: #ffbaba;
+  padding: 5px;
+}
+
+.quiz-start-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  background-color: #0074d9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.quiz-options li label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.quiz-options li label input[type="radio"] {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.quiz-options li label.selected {
+  color: #000;
+  background-color: #d6d6d6;
+}
+
+.quiz-options li label.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.quiz-options li label.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+.quiz-options li label.correct-answer {
+  color: green;
+  font-weight: bold;
+}
